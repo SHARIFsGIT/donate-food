@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.banner {
+  background-repeat: no-repeat;
+  background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url("../images/donation12.png");
+  height: 669px;
+}
+.banner_items {
+  text-align: center;
+}
+.banner_items h2 {
+  color: #fff;
+  font-size: 65px;
+  width: 826px;
+  margin-left: 230px;
+  padding-top: 174px;
+}
+.banner_items p {
+  width: 691px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 290px;
+}
+button {
+  width: 160px;
+  padding: 16px 12px;
+  border-radius: 5px;
+  background: #ff5959;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+}
+.donate_now {
+  text-align: center;
+  margin-top: 130px;
+}
+.donate_now h3 {
+  color: #121212;
+  font-size: 45px;
+  font-weight: 700;
+}
+.donate_now p {
+  color: #707070;
+  font-size: 18px;
+  width: 691px;
+  padding-left: 290px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.donation_money ul {
+  display: flex;
+  gap: 22px;
+  list-style: none;
+  margin-left: 300px;
+}
+.donation_money h5 {
+  color: #707070;
+  text-align: center;
+  font-size: 10px;
+  padding: 43px 25px 43px 25px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+#current_donation_money {
+  border-radius: 5px;
+  border: 2px solid #ff5959;
+  margin-bottom: 60px;
+}
+#current_donation_money h5 {
+  color: #ff5959;
+  text-align: center;
+  font-weight: 700;
+  background: #fee;
+}
+hr {
+  width: 700px;
+  height: 0px;
+  margin-left: 285px;
+  margin-bottom: 30px;
+}
+.donate_now p {
+  margin-bottom: 50px;
+}
+.donation_money {
+  display: flex;
+  gap: 15px;
+}
+#item1 {
+  width: 350px;
+  height: 352px;
+  margin-left: 95px;
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+}
+#item2 {
+    width: 350px;
+    height: 352px;
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+}
+#item3 {
+    width: 350px;
+    height: 352px;
+    border-radius: 5px;
+    background: #FFF4D6;}
