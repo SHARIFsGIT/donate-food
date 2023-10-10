@@ -2,6 +2,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+/* banner section */
 .banner {
   background-repeat: no-repeat;
   background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
@@ -28,15 +29,15 @@
   padding-left: 290px;
 }
 button {
-  width: 160px;
-  padding: 16px 12px;
+  padding: 15px 18px;
   border-radius: 5px;
   background: #ff5959;
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   border: 0;
 }
+/* donation section */
 .donate_now {
   text-align: center;
   margin-top: 130px;
@@ -80,33 +81,127 @@ button {
   background: #fee;
 }
 hr {
-  width: 700px;
+  width: 500px;
   height: 0px;
-  margin-left: 285px;
+  margin-left: 370px;
   margin-bottom: 30px;
 }
 .donate_now p {
+  margin-bottom: 40px;
+}
+/* donate plan */
+.donate_plan_section {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+.donate_plan_section_title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.donate_plan_section_discription {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
   margin-bottom: 50px;
+  text-align: center;
+  padding-left: 290px;
+  width: 691px;
 }
-.donation_money {
+.items_container {
   display: flex;
-  gap: 15px;
+  gap: 24px;
 }
-#item1 {
-  width: 350px;
-  height: 352px;
-  margin-left: 95px;
+.items_container > .item1,
+.item2,
+.item3 {
   border-radius: 5px;
+  background: #fff;
+  padding: 25px;
+  width: 280px;
+}
+.items_container .item1 {
   background: rgba(79, 157, 166, 0.1);
+  margin-left: 110px;
 }
-#item2 {
-    width: 350px;
-    height: 352px;
-    border-radius: 5px;
-    background: rgba(255, 89, 89, 0.10);
+.items_container .item2 {
+  background: rgba(255, 89, 89, 0.1);
 }
-#item3 {
-    width: 350px;
-    height: 352px;
-    border-radius: 5px;
-    background: #FFF4D6;}
+.items_container .item3 {
+  background: #fff4d6;
+}
+.item_title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.item_description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* other section */
+.other_section > div {
+  display: flex;
+  gap: 50px;
+  margin: 100px 120px 35px 120px;
+}
+.other_text h3 {
+  color: #121212;
+  font-size: 32px;
+  width: 492px;
+}
+.other_section img {
+  width: 450px;
+  height: 300px;
+  border-radius: 5px;
+}
+/* update section */
+.email {
+  width: 809px;
+  height: 200px;
+  background: #fff4d6;
+  margin-left: 240px;
+  margin-bottom: 100px;
+  border-radius: 10px 10px 10px 10px;
+}
+.email input {
+  margin-top: 80px;
+  border-radius: 5px 0px 0px 5px;
+  background: #d9d9d9;
+  border: 0;
+  height: 48px;
+}
+.email span {
+  border-radius: 0px 5px 5px 0px;
+  background: #ff5959;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px;
+}
+/* footer section */
+footer {
+  padding-bottom: 80px;
+  justify-content: flex-end;
+  align-items: center;
+  background: #0b0d17;
+}
+.footer_section {
+  text-align: center;
+}
+.footer_section h3 {
+  padding-top: 50px;
+  color: #ff5959;
+  font-size: 36px;
+  font-weight: 400;
+}
+.footer_section p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+}
