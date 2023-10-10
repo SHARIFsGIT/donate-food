@@ -15,18 +15,14 @@
 .banner_items h2 {
   color: #fff;
   font-size: 65px;
-  width: 826px;
-  margin-left: 230px;
   padding-top: 174px;
 }
 .banner_items p {
-  width: 691px;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
-  margin-bottom: 30px;
-  padding-left: 290px;
+  margin-bottom: 50px;
 }
 button {
   padding: 15px 18px;
@@ -50,8 +46,6 @@ button {
 .donate_now p {
   color: #707070;
   font-size: 18px;
-  width: 691px;
-  padding-left: 290px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -59,11 +53,10 @@ button {
   display: flex;
   gap: 22px;
   list-style: none;
-  margin-left: 300px;
+  margin-left: 700px;
 }
 .donation_money h5 {
   color: #707070;
-  text-align: center;
   font-size: 10px;
   padding: 43px 25px 43px 25px;
   border-radius: 5px;
@@ -83,7 +76,7 @@ button {
 hr {
   width: 500px;
   height: 0px;
-  margin-left: 370px;
+  margin-left: 700px;
   margin-bottom: 30px;
 }
 .donate_now p {
@@ -106,12 +99,10 @@ hr {
   font-weight: 400;
   margin-bottom: 50px;
   text-align: center;
-  padding-left: 290px;
-  width: 691px;
 }
 .items_container {
   display: flex;
-  gap: 24px;
+  gap: 30px;
 }
 .items_container > .item1,
 .item2,
@@ -123,7 +114,7 @@ hr {
 }
 .items_container .item1 {
   background: rgba(79, 157, 166, 0.1);
-  margin-left: 110px;
+  margin-left: 410px;
 }
 .items_container .item2 {
   background: rgba(255, 89, 89, 0.1);
@@ -147,7 +138,7 @@ hr {
 .other_section > div {
   display: flex;
   gap: 50px;
-  margin: 100px 120px 35px 120px;
+  margin: 100px 120px 35px 220px;
 }
 .other_text h3 {
   color: #121212;
@@ -161,10 +152,10 @@ hr {
 }
 /* update section */
 .email {
-  width: 809px;
   height: 200px;
   background: #fff4d6;
-  margin-left: 240px;
+  margin-left: 520px;
+  margin-right: 520px;
   margin-bottom: 100px;
   border-radius: 10px 10px 10px 10px;
 }
@@ -186,7 +177,6 @@ hr {
 /* footer section */
 footer {
   padding-bottom: 80px;
-  justify-content: flex-end;
   align-items: center;
   background: #0b0d17;
 }
